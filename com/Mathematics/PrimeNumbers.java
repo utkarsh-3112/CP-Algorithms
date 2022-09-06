@@ -33,8 +33,21 @@ class PrimeNumbers {
             }
             return true;
         }
+        // ------- Better -------
+        // Any prime number can be express 6n + 1 or 6n - 1
+        public static boolean better(int n){
 
-        // Fermat Primality Test
+            if(n == 1) return false;
+            if(n == 2 || n == 3) return true;
+            if(n % 2 == 0 || n % 3 == 0) return false;
+            for(int i = 5 ; i * i <= n ; i += 6){
+                if(n % i == 0 || n % (i + 2) == 0)
+                    return true;
+            }
+            return false;
+        }
+
+        // ------ Fermat Primality Test --------
 
         public static boolean  probablyPrimeFermat(int n, int iter) {
             if (n < 4)

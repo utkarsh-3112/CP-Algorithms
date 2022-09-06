@@ -3,8 +3,6 @@
  *
  * @UtkarshAgarwal
  */
-
-
 class ModuloArithmetic {
 
     public static long moduloExponentiation(long num, long pow, long mod){
@@ -31,5 +29,20 @@ class ModuloArithmetic {
             a >>= 1;
         }
         return res;
+    }
+    /* ----------------- Modulo Inverse ----------------------------
+        TC : O(log ab)
+        (a * inverse(a)) % mod = 1
+     */
+
+    public static int moduloInverse(int num, int mod){
+        int[] coff = new int[2];
+        int gcd = MathsBasic.extendedEuclid(num, mod, coff);
+        if(gcd != 1){
+            return 0; // No inverse exist
+        }else{
+            int inverse = (coff[0] % mod + mod) % coff[0];
+            return inverse;
+        }
     }
 }
