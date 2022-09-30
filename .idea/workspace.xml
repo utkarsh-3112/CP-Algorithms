@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ec7e900-c4e4-4707-bc83-5d29f83fb4f2" name="Changes" comment="">
+    <list default="true" id="9ec7e900-c4e4-4707-bc83-5d29f83fb4f2" name="Changes" comment="extended euclid">
+      <change afterPath="$PROJECT_DIR$/src/com/Mathematics/MathsBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Mathematics/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/Mathematics/MathsBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/Mathematics/MathsBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/Mathematics/ModuloArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/Mathematics/ModuloArithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/Mathematics/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/Mathematics/PrimeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/Mathematics/MathsBasic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/Mathematics/ModuloArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Mathematics/ModuloArithmetic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/Mathematics/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Mathematics/PrimeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Gcd.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +28,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-17.0.1/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2Dvqor4fPz5XYZAJXjP8Pm7gUrf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,10 +49,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/UTKARSH AGARWAL/Desktop/Striver Sheet",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\UTKARSH AGARWAL\Desktop\Algorithms\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="MathsBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MathsBasic" />
       <module name="Algorithms" />
@@ -48,8 +68,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Solution" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.MathsBasic" />
       </list>
     </recent_temporary>
@@ -63,7 +105,36 @@
       <option name="presentableId" value="Default" />
       <updated>1661590083441</updated>
       <workItem from="1662446359199" duration="2538000" />
+      <workItem from="1662488178820" duration="998000" />
+      <workItem from="1662494577410" duration="4588000" />
+      <workItem from="1662553644275" duration="29038000" />
+      <workItem from="1662670727835" duration="47000" />
+      <workItem from="1662725630193" duration="3249000" />
+      <workItem from="1662732774081" duration="61000" />
+      <workItem from="1662745169691" duration="1245000" />
+      <workItem from="1662824699265" duration="7006000" />
+      <workItem from="1662958331087" duration="12805000" />
+      <workItem from="1663175648913" duration="5618000" />
+      <workItem from="1663351790773" duration="9909000" />
+      <workItem from="1663410063141" duration="274000" />
+      <workItem from="1663439735856" duration="3879000" />
+      <workItem from="1663520228126" duration="35104000" />
+      <workItem from="1663842922685" duration="22000" />
+      <workItem from="1663864816109" duration="15397000" />
+      <workItem from="1663966997877" duration="13000" />
+      <workItem from="1663998821420" duration="9583000" />
+      <workItem from="1664113384445" duration="7167000" />
+      <workItem from="1664298794077" duration="2447000" />
+      <workItem from="1664355718059" duration="22332000" />
     </task>
+    <task id="LOCAL-00001" summary="extended euclid">
+      <created>1662488466443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662488466443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,5 +150,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="extended euclid" />
+    <option name="LAST_COMMIT_MESSAGE" value="extended euclid" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Mathematics/MathsBasic.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
