@@ -75,5 +75,15 @@ public class ModuloArithmetic {
         return moduloExponentiation(num, mod - 2, mod);
     }
 
+    public static long binomialCoefficient(int n, int k, long mod) {
+        return factorial[n] * moduloInverse(factorial[k] * factorial[n - k] % mod, mod) % mod;
+    }
+    static long[] factorial = new long[(int) 1e9];
+    public static void factorials(long MAXN, long mod) {
+        for (int i = 1; i <= MAXN; i++) {
+            factorial[i] = factorial[i - 1] * i % mod;
+        }
+    }
+
 
 }

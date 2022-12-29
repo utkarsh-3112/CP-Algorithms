@@ -1,6 +1,6 @@
 package com.Mathematics;
 
-class Pair {
+public class Pair {
     int i;
     int j;
 
@@ -9,3 +9,4 @@ class Pair {
         this.j = j;
     }
 }
+

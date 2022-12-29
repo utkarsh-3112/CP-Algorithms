@@ -109,8 +109,8 @@ public class MathsBasic {
         ------------------------ Prime Factorization -------------------------
         TC : O(sqrt(N))
      */
-    public static ArrayList<Pair> primeFactorization(long num) {
-        ArrayList<Pair> factors = new ArrayList<>();
+    public static ArrayList<int[]> primeFactorization(long num) {
+        ArrayList<int[]> factors = new ArrayList<>();
         for (int i = 2; (long) i * i <= num; i++) {
             if (num % i == 0) {
                 int count = 0;
@@ -118,18 +118,18 @@ public class MathsBasic {
                     count++;
                     num = num / i;
                 }
-                factors.add(new Pair(i, count));
+                factors.add(new int[] {i, count});
             }
         }
-        if (num > 1) factors.add(new Pair((int) num, 1));
+        if (num > 1) factors.add(new int[]{(int) num, 1});
         return factors;
     }
 
     // Prime Factorization using Sieve
     // TC : log(N)
 
-    public static ArrayList<Pair> primeFactorizationSieve(int num) {
-        ArrayList<Pair> factors = new ArrayList<>();
+    public static ArrayList<int[]> primeFactorizationSieve(int num) {
+        ArrayList<int[]> factors = new ArrayList<>();
         int[] arr = new int[(int) (num + 1)];
         for (int i = 2; i <= num; i++) {
             if (arr[i] == 0) {
@@ -147,7 +147,7 @@ public class MathsBasic {
                 count++;
                 num = num / x;
             }
-            factors.add(new Pair(x, count));
+            factors.add(new int[]{x, count});
         }
         return factors;
     }
@@ -224,11 +224,11 @@ public class MathsBasic {
      */
     // TC : O(sqrt(N))
     public static int eulerTotientFunction(int n) {
-        ArrayList<Pair> primeFactors = primeFactorization(n);
+        ArrayList<int[]> primeFactors = primeFactorization(n);
         int res = n;
-        for (Pair pair : primeFactors) {
-            res /= pair.i;
-            res *= (pair.i - 1);
+        for (int[] x : primeFactors) {
+            res /= x[0];
+            res *= (x[0] - 1);
         }
         return res;
     }
